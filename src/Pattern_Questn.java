@@ -164,6 +164,20 @@ public class Pattern_Questn {
 //		567898765
 		
 		
+		for(int i=0; i<num; i++) {
+			for(int j=1; j<=num-i-1;j++) {
+				System.out.print(".");
+			}
+			for(int j=i+1; j<=2*i+1;j++) {
+				System.out.print(j);
+			}
+			for(int j=2*i; j>= i+1; j--) {
+				System.out.print(j);
+			}
+			System.out.println();
+		}
+		
+		
 		
 		
 		
